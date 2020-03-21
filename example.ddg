@@ -1,0 +1,139 @@
+STARTGAME
+
+
+//STARTS PROGRAM WITH THIS TOKEN//
+
+CREATE SEVDA = ESCAPER(7);
+
+CREATE ROBI = ESCAPER(9);
+
+CREATE CEREN = THROWER(8);
+
+CREATE BOB = THROWER(6);
+
+SEVDA && ROBI = A;
+
+CEREN && BOB = B;
+
+//HEALTH = 10 FOR SEVDA DEFAULT//
+
+s = 10;
+t = 0S;
+
+WHILE s>=0
+
+t = t + 1 
+
+CEREN THROWING(5.5)
+
+IF SEVDA(7) > CEREN(8) + (5.5) / 2
+
+   IF SEVDA CATCHING
+      s = s + 1
+
+   ELSE
+      SEVDA ESCAPING      
+
+ELSE
+
+DIE SEVDA
+
+s = s - 1
+
+
+//HEALTH = 10 FOR ROBI DEFAULT//
+
+r = 10;
+
+WHILE r>=0
+
+t = t + 1 
+
+BOB THROWING(2.4)
+
+WHILE r >= 0
+
+IF ROBI(9) > BOB(6) + (2.4) / 2
+
+   IF ROBI CATCHING
+      r = r + 1
+
+   ELSE
+      ROBI ESCAPING      
+
+ELSE
+
+DIE ROBI
+
+r = r - 1
+
+
+CHANGE; //Change A team thrower and B team escaper//
+
+//HEALTH = 10 FOR CEREN DEFAULT//
+
+c = 10;
+z = 0S;
+
+WHILE c>=0
+
+z = z + 1 
+
+SEVDA THROWING(3.2)
+
+IF  CEREN(8) ) > SEVDA(7) + (3.2) / 2
+
+   IF CEREN CATCHING
+      c = c + 1
+
+   ELSE
+      CEREN ESCAPING      
+
+ELSE
+
+DIE CEREN
+
+c = c - 1
+
+
+//HEALTH = 10 FOR BOB DEFAULT//
+
+b = 10;
+
+WHILE b>=0
+
+z = z + 1 
+
+ROBI THROWING(5.0)
+
+IF BOB(6) > ROBI(9) + (5.0) / 2
+
+   IF BOB CATCHING
+      r = r + 1
+
+   ELSE
+      BOB ESCAPING      
+
+ELSE
+
+DIE BOB
+
+b = b - 1
+
+
+IF z > t 
+    B WIN && A LOST
+
+ELSEIF t > z
+    A WIN && B LOST
+
+ELSE 
+    DRAW
+    
+
+ENDGAME
+
+
+//ENDS PROGRAM WITH THIS TOKEN//
+
+
