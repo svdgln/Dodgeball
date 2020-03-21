@@ -1,4 +1,4 @@
-# Programming Language ddg
+# Programming Language ddg :computer:
 
 **Group Members:** Sevda Gülen, Ceren Bülbül
 
