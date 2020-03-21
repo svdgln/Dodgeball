@@ -4,6 +4,11 @@
 
 **Project Name:** Dodgeball
 
+**How it run ?** 
+
+* make dodgeball
+* ./dodgeball < example.ddg
+
 ## Syntax
 
 ### Blocks and Commands ###
