@@ -12,7 +12,7 @@
 
 * < statement > : < creation statement > **SEMICOLON** | < change statement > **SEMICOLON** < if elseif else statement > | < if  else statement > | < while statement > | < for statement > | **COMMENT**
 
-* < creation statement > ::= **KEY CHILDREN** 
+* < key statement > ::= **KEY CHILDREN** | < key statement > < assign expression > 
 
 * < change statement > ::= **CHANGE** 
 
