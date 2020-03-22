@@ -85,7 +85,7 @@ z = z + 1
 
 SEVDA THROWING(3.2)
 
-IF  CEREN(8) ) > SEVDA(7) + (3.2) / 2
+IF  CEREN(8) > SEVDA(7) + (3.2) / 2
 
    IF CEREN CATCHING
       c = c + 1
